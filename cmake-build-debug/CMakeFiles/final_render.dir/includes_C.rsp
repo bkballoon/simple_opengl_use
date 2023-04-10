@@ -1,0 +1,1 @@
+-IE:/mycodes/cmake_pro/final_render/inc -IE:/gllibs/glfw-3.3.8.bin.WIN64/include -IE:/gllibs/glm-0.9.9.8/glm -isystem E:/gllibs/opencv/include 

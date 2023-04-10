@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="final_render"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\gllibs\;CMake Files\..\..\..\gllibs\opencv\;CMake Files\..\..\..\gllibs\opencv\x64\;CMake Files\..\..\..\gllibs\opencv\x64\mingw\;CMake Files\..\..\..\gllibs\opencv\x64\mingw\lib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/mycodes/cmake_pro/final_render/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="E:/mycodes/cmake_pro/final_render/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="E:/mycodes/cmake_pro/final_render/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="E:/mycodes/cmake_pro/final_render/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="E:/mycodes/cmake_pro/final_render/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="final_render">
+				<Option output="E:/mycodes/cmake_pro/final_render/cmake-build-debug/final_render.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/mycodes/cmake_pro/final_render/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/mycodes/cmake_pro/final_render/inc"/>
+					<Add directory="E:/gllibs/glfw-3.3.8.bin.WIN64/include"/>
+					<Add directory="E:/gllibs/glm-0.9.9.8/glm"/>
+					<Add directory="E:/gllibs/opencv/include"/>
+					<Add directory="E:/gllibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/gllibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/gllibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/gllibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/gllibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/gllibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 final_render"/>
+					<CompileFile command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="final_render/fast">
+				<Option output="E:/mycodes/cmake_pro/final_render/cmake-build-debug/final_render.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/mycodes/cmake_pro/final_render/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/mycodes/cmake_pro/final_render/inc"/>
+					<Add directory="E:/gllibs/glfw-3.3.8.bin.WIN64/include"/>
+					<Add directory="E:/gllibs/glm-0.9.9.8/glm"/>
+					<Add directory="E:/gllibs/opencv/include"/>
+					<Add directory="E:/gllibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/gllibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/gllibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/gllibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/gllibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/gllibs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 final_render/fast"/>
+					<CompileFile command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="E:/mycodes/cmake_pro/final_render/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="E:/mycodes/cmake_pro/final_render/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/mycodes/cmake_pro/final_render/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/mycodes/cmake_pro/final_render/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/gllibs/mingw64/bin/mingw32-make.exe -f &quot;E:/mycodes/cmake_pro/final_render/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/mycodes/cmake_pro/final_render/main.cpp">
+			<Option target="final_render"/>
+		</Unit>
+		<Unit filename="E:/mycodes/cmake_pro/final_render/src/glad.c">
+			<Option target="final_render"/>
+		</Unit>
+		<Unit filename="E:/mycodes/cmake_pro/final_render/src/shader.cpp">
+			<Option target="final_render"/>
+		</Unit>
+		<Unit filename="E:/mycodes/cmake_pro/final_render/src/stb_image.cpp">
+			<Option target="final_render"/>
+		</Unit>
+		<Unit filename="E:/mycodes/cmake_pro/final_render/src/texture.cpp">
+			<Option target="final_render"/>
+		</Unit>
+		<Unit filename="E:/mycodes/cmake_pro/final_render/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/mycodes/cmake_pro/final_render/../../../gllibs/opencv/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\gllibs\opencv\"/>
+		</Unit>
+		<Unit filename="E:/mycodes/cmake_pro/final_render/../../../gllibs/opencv/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\gllibs\opencv\"/>
+		</Unit>
+		<Unit filename="E:/mycodes/cmake_pro/final_render/../../../gllibs/opencv/x64/mingw/lib/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\gllibs\opencv\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="E:/mycodes/cmake_pro/final_render/../../../gllibs/opencv/x64/mingw/lib/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\gllibs\opencv\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="E:/mycodes/cmake_pro/final_render/../../../gllibs/opencv/x64/mingw/lib/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\gllibs\opencv\x64\mingw\lib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

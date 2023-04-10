@@ -1,0 +1,3 @@
+"D:\app\clionnn\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\final_render.dir/objects.a
+E:\gllibs\mingw64\bin\ar.exe cr CMakeFiles\final_render.dir/objects.a @CMakeFiles\final_render.dir\objects1.rsp
+E:\gllibs\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\final_render.dir/objects.a -Wl,--no-whole-archive  -o final_render.exe -Wl,--out-implib,libfinal_render.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\final_render.dir\linklibs.rsp

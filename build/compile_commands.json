@@ -1,0 +1,17 @@
+[
+{
+  "directory": "E:/mycodes/cmake_pro/final_render/build",
+  "command": "E:\\gllibs\\mingw64\\bin\\g++.exe  @CMakeFiles/final_render.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\final_render.dir\\main.cpp.obj -c E:\\mycodes\\cmake_pro\\final_render\\main.cpp",
+  "file": "E:/mycodes/cmake_pro/final_render/main.cpp"
+},
+{
+  "directory": "E:/mycodes/cmake_pro/final_render/build",
+  "command": "E:\\gllibs\\mingw64\\bin\\g++.exe  @CMakeFiles/final_render.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\final_render.dir\\src\\mygui.cpp.obj -c E:\\mycodes\\cmake_pro\\final_render\\src\\mygui.cpp",
+  "file": "E:/mycodes/cmake_pro/final_render/src/mygui.cpp"
+},
+{
+  "directory": "E:/mycodes/cmake_pro/final_render/build",
+  "command": "E:\\gllibs\\mingw64\\bin\\g++.exe  @CMakeFiles/final_render.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\final_render.dir\\src\\mesh.cpp.obj -c E:\\mycodes\\cmake_pro\\final_render\\src\\mesh.cpp",
+  "file": "E:/mycodes/cmake_pro/final_render/src/mesh.cpp"
+}
+]
